@@ -3,33 +3,33 @@ Hussein Kareem, IoT21
 IoT och molntjänster
 Portfolio projekt
 
-#Bakgrund
+# Bakgrund
 Jämföra inomhus- samt utomhus tempratur/luftfuktighet. Data insamligen inomhus kommer från en DHT11 sensor som är uppkopplat med en Raspberry pi 4 model B. Utomhus datan  är taget från Yr.no
 
 
-#Målet med projektet
+# Målet med projektet
 Målet med min portfolio projekt är att få bättre inblick på hur molntjänsten (Azure) fungerar. 
 
 
-#Arkitektur
+# Arkitektur
 
 
-#Hårdvara
+# Hårdvara
 Raspberry pi Model B 
 Temperatur- och luftfuktighetssensor (DHT11)
 3 kablar hona till hane 
 
-#Mjukvara 
+# Mjukvara 
 raspbian 32 bit 
 Python 
 SQL
 
-#Program 
+# Program 
 VNC Viewer
 Thonny 
 
 
-#Libraries
+# Libraries
 random  
 adafruit_dht 
 time 
