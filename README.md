@@ -13,7 +13,7 @@ Jämföra inomhus- samt utomhus tempratur/luftfuktighet. Data insamligen inomhus
 ---
 
 # Målet med projektet
-Målet med min portfolio projekt är att få bättre inblick på hur molntjänsten (Azure) fungerar. 
+Målet med min portfolio projekt är att få bättre inblick på hur molntjänsten (Azure) fungerar och i första hand hur man bygger upp en IoT helhetslösning från början till slut. Det vill säga att koppla hårdvaran och programmera den. Skicka data till molnet som då lagras där och visualisera så att användaren kan se tempraturen både inomhus och utomhus lätt och smidigt via powerbi appen som finns både till Ios och Andorid. 
 
 ---
 
