@@ -28,6 +28,8 @@ Målet med min portfolio projekt är att få bättre inblick på hur molntjänst
 * Temperatur- och luftfuktighetssensor (DHT11)
 * 3 kablar hona till hane 
 
+<img src="/img/IMG_8704.jpg">
+
 
 ---
 
