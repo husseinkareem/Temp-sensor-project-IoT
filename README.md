@@ -31,7 +31,9 @@ _Inomhus tempratur/fukt:_
         DATA --> pin07 (GPIO04)
     
     Efter att jag lyckades koppla min sensor så skapade jag en IoT hub i Azure.
-    Därefter körde jag dessa kommandon på min raspberrypi för att kunna skicka in data till min IoT hub från sensorn med hjälp av iothubens connction string.    
+    Därefter körde jag dessa kommandon på min raspberrypi för
+    att kunna skicka in data till min IoT hub från sensorn med 
+    hjälp av iothubens connction string.    
         sudo pip3 install azure-iot-device  
         sudo pip3 install azure-iot-hub  
         sudo pip3 install azure-iothub-service-client  
