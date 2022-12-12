@@ -13,7 +13,7 @@ Jämföra inomhus- samt utomhus tempratur/luftfuktighet. Data insamligen inomhus
 ---
 
 # Målet med projektet
-Målet med min portfolio projekt är att få bättre inblick på hur molntjänsten (Azure) fungerar och i första hand hur man bygger upp en IoT helhetslösning från början till slut. Det vill säga att koppla hårdvaran och programmera den. Skicka data till molnet som då lagras där och visualisera så att användaren kan se tempraturen både inomhus och utomhus lätt och smidigt via powerbi appen som finns både till Ios och Andorid.    
+Målet med min portfolio projekt är att få bättre inblick på hur molntjänsten (Azure) fungerar och i första hand hur man bygger upp en IoT helhetslösning från början till slut. Det vill säga att koppla hårdvaran och programmera den. Skicka data till molnet som då lagras där och visualisera så att användaren kan se tempraturen både inomhus och utomhus(API) lätt och smidigt via powerbi appen som finns både till IOS och Andorid.    
 
 ---
 
@@ -58,6 +58,7 @@ Utomhus tempratur/fukt hämtar jag från ett API i Openweathermap där jag har f
 # Hårdvara
 * Raspberry pi Model B 
 * Temperatur- och luftfuktighetssensor (DHT11)
+* Breadboard
 * 3 kablar hona till hane 
 
 <img src="/img/IMG_8704.jpg">
