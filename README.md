@@ -65,13 +65,15 @@ Utomhus tempratur/fukt hämtar jag från ett API i Openweathermap där jag har f
 # Mjukvara 
 * raspbian 32 bit 
 * Python 
-* SQL
+* NoSQL
 
 ---
 
 # Program 
 * VNC Viewer
 * Thonny 
+* Visual Studio code
+* Microsoft Power BI desktop
 
 ---
 
