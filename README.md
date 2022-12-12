@@ -39,6 +39,10 @@ _Inomhus tempratur/fukt:_
         sudo pip3 install azure-iothub-service-client  
         sudo pip3 install azure-iothub-device-client  
     Därefter skapade jag en Cosmos databas som jag kopplade till min IoT hub. 
+    Varför jag just valde att lagra min data i en databas istället för
+    tillexempel blob storge är för att jag behöver visa upp datan på BI verktyg. 
+    Data som sparas i blob storge eller S3 är data som inte behöver läsas ofta och 
+    det är ett billigt sätt att spara data på (Cold Path).  
     Sen förde jag över datan till PowerBI för att kunna
     visualisera den i desktop versionen och mobilappen. 
 # API
