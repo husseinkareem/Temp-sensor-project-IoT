@@ -30,13 +30,15 @@ _Inomhus tempratur/fukt:_
         VCC(+) --> pin02 (DC Power 5v)
         DATA --> pin07 (GPIO04)
     
-    Efter att jag lyckades koppla min sensor så skapade jag en IoT hub i Azure. Därefter körde jag dessa kommandon på min raspberrypi för att kunna skicka in data till min IoT hub från sensorn med hjälp av iothubens connction string.    
+    Efter att jag lyckades koppla min sensor så skapade jag en IoT hub i Azure.
+    Därefter körde jag dessa kommandon på min raspberrypi för att kunna skicka in data till min IoT hub från sensorn med hjälp av iothubens connction string.    
         sudo pip3 install azure-iot-device  
         sudo pip3 install azure-iot-hub  
         sudo pip3 install azure-iothub-service-client  
         sudo pip3 install azure-iothub-device-client  
     Därefter skapade jag en Cosmos databas som jag kopplade till min IoT hub. 
-    Sen förde jag över datan till PowerBI för att kunna visualisera den i desktop versionen och mobilappen. 
+    Sen förde jag över datan till PowerBI för att kunna
+    visualisera den i desktop versionen och mobilappen. 
 # API
 _Utomhus tempratur/fukt:_
 Utomhus tempratur/fukt hämtar jag från ett API i Openweathermap där jag har fått skapa ett konto som ger mig en API nykel som jag kan använda mig utav för att skicka förfrågan så att jag kan hämta temp/fukt med en azure funktion som triggas var tionde minut.
