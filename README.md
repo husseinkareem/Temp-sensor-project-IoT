@@ -23,8 +23,8 @@ Målet med min portfolio projekt är att få bättre inblick på hur molntjänst
 
 # Projekt beskrivning
 _Inomhus tempratur/fukt:_
-    DHT11 sensorn är kopplad med 3 hona till hane kablar. 
-        
+
+        DHT11 sensorn är kopplad med 3 hona till hane kablar. 
         Raspberry pi Pinout:
         GND --> pin06 (Ground)
         VCC(+) --> pin02 (DC Power 5v)
