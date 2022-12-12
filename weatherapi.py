@@ -1,4 +1,4 @@
-from secrets_1 import api_key
+from mysecrets import api_key
 import requests
 import json
 
