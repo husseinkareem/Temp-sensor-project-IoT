@@ -45,6 +45,11 @@ _Inomhus tempratur/fukt:_
     det är ett billigt sätt att spara data på (Cold Path).  
     Sen förde jag över datan till PowerBI för att kunna
     visualisera den i desktop versionen och mobilappen. 
+
+Skalbarhet för den här produkten kan vara att tillexempel göra färre tempratur/fukt anrop. Istället för 6 anrop i timmen så kan man anropa 2 gånger i timmen. Då blir det mindre lagring i CosmosDB och mer effektivare för kunden. Det beror ju såklart på vart man ska installera sensorn. 
+
+Säkerhetslösningar för detta system som jag har byggt kan vara att inte dela ut offentligt på github (api nyckel, connection string för IoT huben). Skaffa en stark lösenord för databasen är en av de viktigaste delarna för IoTlösningen. 
+
 # API
 _Utomhus tempratur/fukt:_
 Utomhus tempratur/fukt hämtar jag från ett API i Openweathermap där jag har fått skapa ett konto som ger mig en API nykel som jag kan använda mig utav för att skicka förfrågan så att jag kan hämta temp/fukt med en azure funktion som triggas var tionde minut.

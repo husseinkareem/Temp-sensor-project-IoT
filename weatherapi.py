@@ -4,7 +4,7 @@ import json
 
 URL = "http://api.openweathermap.org/data/2.5/weather?"
 API_KEY = api_key
-CITY = "Viksjö, SE"
+CITY = "London"
 
 url = URL + "appid" + API_KEY + "&q=" + CITY
 
