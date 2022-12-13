@@ -100,3 +100,15 @@ IoTHubDeviceClient, Messag
 
 # Kod
 [Sensorkoden](https://github.com/husseinkareem/Temp-sensor-project-IoT/blob/main/main.py)
+
+---
+
+# Visualisering på PowerBI
+PowerBi desktop:
+
+<img src="/img/web.jpg">
+
+
+Mobilappen:
+
+<img src="/img/app.jpg">
