@@ -48,7 +48,8 @@ _Inomhus tempratur/fukt:_
 
 Skalbarhet för den här produkten kan vara att tillexempel göra färre tempratur/fukt anrop. Istället för 6 anrop i timmen så kan man anropa 2 gånger i timmen. Då blir det mindre lagring i CosmosDB och mer effektivare för kunden. Det beror ju såklart på vart man ska installera sensorn. 
 
-Säkerhetslösningar för detta system som jag har byggt kan vara att inte dela ut offentligt på github (api nyckel, connection string för IoT huben). Man ska helst inte maila api nycklar eller certifikat. Man kan istället ladda ner den i en usb-minne med lösenord som man posta den vidare. Skaffa ett starkt lösenord för databasen är en av de viktigaste delarna för IoTlösningen. Man ska alltid använda sig utav HTTPS och inte HTTP. 
+Säkerhetslösningar för detta system som jag har byggt kan vara att inte dela ut offentligt på github (api nyckel, connection string för IoT huben). Man ska helst inte maila api nycklar eller certifikat. Man kan istället ladda ner den i en usb-minne med lösenord som man posta den vidare. Skaffa ett starkt lösenord för databasen är en av de viktigaste delarna för IoTlösningen. Man ska alltid använda sig utav HTTPS och inte HTTP. Det man kan göra för att ingen ska kunna komma åt certifikatet så kan man använda sig utav HSM (Hardware security module). Det är en modul i plug in kort eller extern enhet som kan anslutas direkt till din device tex (raspberry pi) i projektets fall. Den utför krypterings- och dekrypteringsfunktioner och kan låsas om någon försöker komma åt certifikatet på modulen. 
+
 
 # API
 _Utomhus tempratur/fukt:_
